@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(137, 197, 34);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.toc {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.toc-active {
+    opacity: 100;
+    pointer-events: auto;
+}
