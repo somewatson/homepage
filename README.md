@@ -41,15 +41,25 @@ Saturday June 28, 2025
 Sunday June 29, 2025
 - [x] Indicate which page I'm currently on
 
+*Break for AX 2025*
+
+Sunday July 13, 2025
+- [x] Create a list of social media links (twitch, youtube, discord)
+- [x] Fix page 5 narrow width rendering
+- [x] Add `target="_blank"` for external links (ty bond)
+- [x] Describe the community we're building (Washodo, the most positive community in League/Gaming)
+
 ### Todo List
 
 Up Next
-- [ ] Create a list of social media links (twitch, youtube, discord)
+- [ ] Core memories and lore
 
 For Later
-- [ ] Under discord, describe the community we're building (Washodo, the most positive community in League/Gaming)
-- [ ] Core memories and lore
-- [ ] Add a section for friends
+- [ ] Page 2: Describe Puddo more. She's a vtuber. She made all the art. Merch.
+- [ ] Page 3: Describe Puddo and Watson's story
+- [ ] Get full size Washodo image
+- [ ] Finish out the friends list
+- [ ] Add different kinds of links with icons for the friends list
 
 ### Notes
 * Code-server has 3 methods for accessing web services, such as the HTTP server that runs in preview mode. 
