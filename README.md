@@ -41,7 +41,7 @@ Saturday June 28, 2025
 Sunday June 29, 2025
 - [x] Indicate which page I'm currently on
 
-*Break for AX 2025* 
+*Break for AX 2025*
 
 Sunday July 13, 2025
 - [x] Create a list of social media links (twitch, youtube, discord)
