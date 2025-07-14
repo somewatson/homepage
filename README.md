@@ -41,13 +41,17 @@ Saturday June 28, 2025
 Sunday June 29, 2025
 - [x] Indicate which page I'm currently on
 
+*Break for AX 2025* 
+
+Sunday July 13, 2025
+- [ ] Create a list of social media links (twitch, youtube, discord)
+
 ### Todo List
 
 Up Next
-- [ ] Create a list of social media links (twitch, youtube, discord)
+- [ ] Under discord, describe the community we're building (Washodo, the most positive community in League/Gaming)
 
 For Later
-- [ ] Under discord, describe the community we're building (Washodo, the most positive community in League/Gaming)
 - [ ] Core memories and lore
 - [ ] Add a section for friends
 
