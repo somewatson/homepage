@@ -50,6 +50,14 @@ window.addEventListener('load', function() {
   observer.observe(document.getElementById('twoheartsbox'));
   observer.observe(document.getElementById('communitybox'));
   observer.observe(document.getElementById('lorebox'));
+
+  // On mobile, let's make sure it doesn't snap while loading, so we scroll to top immediately
+  setTimeout(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, 100);
 })
 
 function resetToc() {
