@@ -48,6 +48,7 @@ Sunday July 13, 2025
 - [x] Fix page 5 narrow width rendering
 - [x] Add `target="_blank"` for external links (ty bond)
 - [x] Describe the community we're building (Washodo, the most positive community in League/Gaming)
+- [x] Generate meta tags
 
 ### Todo List
 
