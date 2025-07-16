@@ -49,17 +49,21 @@ Sunday July 13, 2025
 - [x] Add `target="_blank"` for external links (ty bond)
 - [x] Describe the community we're building (Washodo, the most positive community in League/Gaming)
 
+Tuesday July 15, 2025
+- [x] Get full size Washodo image
+- [x] Generate meta tags
+- [x] Page 2: Describe Puddo more. She's a vtuber. She made all the art. Merch.
+- [x] Page 3: Describe Puddo and Watson's story.
+
 ### Todo List
 
 Up Next
 - [ ] Core memories and lore
 
 For Later
-- [ ] Page 2: Describe Puddo more. She's a vtuber. She made all the art. Merch.
-- [ ] Page 3: Describe Puddo and Watson's story
-- [ ] Get full size Washodo image
 - [ ] Finish out the friends list
 - [ ] Add different kinds of links with icons for the friends list
+- [ ] Add more content to page 3 about Puddo and Watson. Been to Japan, did the Camino de Santiago. Moved like 12 times. Studying Japanese. Been to a dozen countries and drove across America.
 
 ### Notes
 * Code-server has 3 methods for accessing web services, such as the HTTP server that runs in preview mode. 
