@@ -52,11 +52,11 @@ Sunday July 13, 2025
 Tuesday July 15, 2025
 - [x] Get full size Washodo image
 - [x] Generate meta tags
+- [x] Page 2: Describe Puddo more. She's a vtuber. She made all the art. Merch.
 
 ### Todo List
 
 Up Next
-- [ ] Page 2: Describe Puddo more. She's a vtuber. She made all the art. Merch.
 - [ ] Page 3: Describe Puddo and Watson's story
 - [ ] Core memories and lore
 
