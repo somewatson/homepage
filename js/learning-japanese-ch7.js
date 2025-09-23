@@ -3,7 +3,7 @@ import { createApp } from 'vue'
 // [['', ''], ['', ''], ['', '']],
 
 const vocabWords = [
-    [['元気', 'Energetic'], ['かぞく', 'Family'], ['会誌', 'Company']],
+    [['元気', 'Energetic'], ['かぞく', 'Family'], ['会社', 'Company']],
     [['しょくどう', 'Cafeteria'], ['かみ', 'Hair'], ['口', 'Mouth']],
     [['め', 'Eye'], ['めがね', 'Glasses'], ['うた', 'Song']],
     [['サークル', 'Club Activity'], ['くるま', 'Car'], ['きょうだい', 'Brothers and Sisters']],
