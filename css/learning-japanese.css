@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(137, 197, 34);
+}
+
+/* Flip Card Styles */
+.flip-card {
+    position: relative;
+    width: 300px; /* Set a fixed width for demonstration purposes */
+    height: 200px; /* Set a fixed height for demonstration purposes */
+    perspective: 1000px;
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: transform 0.6s;
+}
+
+.flip-card-front {
+    /* background-color: #bbb; */
+    color: black;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+.flip-card-back {
+    transform: rotateY(180deg);
+    /* background-color: #2980b9; */
+    color: white;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+/* .flip-card--flipped {
+    transform: rotateY(180deg);
+} */
+
+.flip-card:hover .flip-card-front {
+    transform: rotateY(180deg);
+}
+
+.flip-card:hover .flip-card-back {
+    transform: rotateY(0deg);
+}
