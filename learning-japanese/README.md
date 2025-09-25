@@ -2,5 +2,5 @@
 
 ### Todo List
 - [ ] Increase the font size
-- [ ] Create a table of contents
+- [x] Create a table of contents
 - [ ] Click to flip rather than hover only
