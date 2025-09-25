@@ -46,7 +46,7 @@
             </div>
         </div>
         <div id="app">
-            <div class="flex space-y-20" v-for="n in (vocabWords.length / 3)">
+            <div class="flex space-y-25" v-for="n in (vocabWords.length / 3)">
                 <div class="flip-card flex-1" v-for="m in 3">
                     {{ void(vocabWord = vocabWords[((n - 1) * 3) + (m - 1)]) }}
                     <!-- Front of the card -->
@@ -63,7 +63,8 @@
                     <div class="flip-card-back">
                         <div class="bg-gray-100 p-2">
                             <div class="rounded-xl bg-white p-15 text-lg/7 text-gray-700 ">
-                                <div class="space-y-5 text-lg text-gray-950 font-medium"> 
+                                <div class="space-y-5 text-lg text-gray-950 font-medium">
+                                    <p class="text-center font-bold underline decoration-violet-600 underline-offset-3">{{ vocabWord.jpDef }}</p> 
                                     <p>{{ vocabWord.engDef }}</p>
                                     <p>{{ vocabWord.pronunciation }}</p>
                                     <p>{{ vocabWord.jpExample }}</p>
