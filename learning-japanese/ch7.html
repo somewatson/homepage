@@ -37,11 +37,13 @@
         <link rel="stylesheet" type="text/css" href="../css/learning-japanese.css"/>
     </head>
     <body id="body">
-        <div class="text-center p-10 bg-gray-200 border border-gray-300 rounded-lg shadow-sm m-10">
-            <a href="./index.html" class="underline decoration-sky-400 underline-offset-3 hover:decoration-2">
-                <h1 class="text-xl">Watson's Japanese Study Guide</h1>
-            </a>
-            <h3 class="text-md">Chapter 7 Vocab</h3>
+        <div class="flex flex-col items-center justify-center space-y-10">
+            <div class="text-center p-10 bg-gray-200 border border-gray-300 rounded-lg shadow-sm m-10 min-w-150">
+                <a href="./index.html" class="underline decoration-sky-400 underline-offset-3 hover:decoration-2">
+                    <h1 class="text-xl">Watson's Japanese Study Guide</h1>
+                </a>
+                <h3 class="text-md">Chapter 7 Vocab</h3>
+            </div>
         </div>
         <div id="app">
             <div class="flex" v-for="row in vocabWords">
