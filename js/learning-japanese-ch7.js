@@ -1,5 +1,16 @@
 import { createApp } from 'vue'
 
+window.addEventListener('scroll', function () {
+  const div = document.getElementById('up-floating-link');
+  if (window.scrollY == 0) {
+    div.classList.add('opacity-0', 'pointer-events-none');
+    div.classList.remove('opacity-100', 'pointer-events-auto');
+  } else if (window.scrollY > 500) { // Adjust the scroll threshold as needed
+    div.classList.remove('opacity-0', 'pointer-events-none');
+    div.classList.add('opacity-100', 'pointer-events-auto');
+  }
+});
+
 // [['', ''], ['', ''], ['', '']],
 
 const VocabWord = class {
