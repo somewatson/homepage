@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Primary Meta Tags -->
+        <title>Watson's Japanese Study Guide - Chapter 8</title>
+        <meta name="title" content="Watson's Japanese Study Guide - Chapter 8" />
+        <meta name="description" content="I'm a little vtuber who likes to play games and code. This is my artisanally, hand-coded HTML homepage with vanilla JS that I used copy & paste and AI advice to make. Oh, and chat helped a lot too. Let's live on the web like it's 1997." />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://somewatson.com/learning-japanese/ch8.html" />
+        <meta property="og:title" content="Watson's Japanese Study Guide - Chapter 8" />
+        <meta property="og:description" content="I'm a little vtuber who likes to play games and code. This is my artisanally, hand-coded HTML homepage with vanilla JS that I used copy & paste and AI advice to make. Oh, and chat helped a lot too. Let's live on the web like it's 1997." />
+        <meta property="og:image" content="https://somewatson.com/images/watson_pfp.png" />
+
+        <!-- X (Twitter) -->
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://somewatson.com/learning-japanese/ch8.html" />
+        <meta property="twitter:title" content="Watson's Japanese Study Guide - Chapter 8" />
+        <meta property="twitter:description" content="I'm a little vtuber who likes to play games and code. This is my artisanally, hand-coded HTML homepage with vanilla JS that I used copy & paste and AI advice to make. Oh, and chat helped a lot too. Let's live on the web like it's 1997." />
+        <meta property="twitter:image" content="https://somewatson.com/images/watson_pfp.png" />
+        <!-- Meta Tags Generated with https://metatags.io -->
+
+        <title>Some Watson</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <script type="importmap">
+            {
+                "imports": {
+                "vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.js"
+                }
+            }
+        </script>
+        <script type="module" src="../js/learning-japanese-ch8.js"></script>
+        <link rel="stylesheet" type="text/css" href="../css/learning-japanese.css"/>
+    </head>
+    <body id="body">
+        <div class="flex flex-col items-center justify-center space-y-10">
+            <div class="text-center p-2 bg-gray-100 m-10 min-w-150">
+                <div class="rounded-xl bg-white p-10">
+                    <h1 class="text-xl">Chapter 8 Vocab</h1>
+                    <a href="./index.html" class="underline decoration-sky-400 underline-offset-3 hover:decoration-2">
+                        <h3 class="text-md">&larr; Watson's Japanese Study Guide</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="app">
+            <div class="flex space-y-25" v-for="n in (vocabWords.length / 3)">
+                <div class="flip-card flex-1" v-for="m in 3">
+                    {{ void(vocabWord = vocabWords[((n - 1) * 3) + (m - 1)]) }}
+                    <!-- Front of the card -->
+                    <div class="flip-card-front">
+                        <div class="bg-gray-100 p-2">
+                            <div class="rounded-xl bg-white p-15 text-lg/7 text-gray-700 ">
+                                <div class="space-y-5 text-lg text-gray-950 font-medium"> 
+                                    <p>{{ vocabWord.jpDef }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Back of the card -->
+                    <div class="flip-card-back">
+                        <div class="bg-gray-100 p-2">
+                            <div class="rounded-xl bg-white p-15 text-lg/7 text-gray-700 ">
+                                <div class="space-y-5 text-lg text-gray-950 font-medium">
+                                    <p class="text-center font-bold underline decoration-violet-600 underline-offset-3">{{ vocabWord.jpDef }}</p> 
+                                    <p>{{ vocabWord.engDef }}</p>
+                                    <p>{{ vocabWord.pronunciation }}</p>
+                                    <p>{{ vocabWord.jpExample }}</p>
+                                    <p>{{ vocabWord.engExample }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fixed bottom-4 right-4 opacity-0 pointer-events-none" id="up-floating-link">
+            <a href="#body" class= "text-gray-950 underline decoration-sky-400 underline-offset-3 hover:decoration-2 ">Up &uarr;</a>
+        </div>
+    </body>
+</html>
