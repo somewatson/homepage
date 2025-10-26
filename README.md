@@ -72,3 +72,13 @@ For Later
     * We ended up using the subpath method
 * Rano and Sportsliker mentioned, try importing tailwind through the css file for intellisense to work properly
     * Right now, it's imported inside of the HTML from the CDN
+
+### Using Umami for analytics
+
+In order to exclude myself from being included in the analytics, I enter this into my browser's console:
+
+```
+localStorage.setItem('umami.disabled', 1);
+```
+
+Source: https://umami.is/docs/exclude-my-own-visits
