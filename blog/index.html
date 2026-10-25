@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Some Watson's Blog</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <script src="../js/index.js"></script>
+        <link rel="stylesheet" type="text/css" href="../css/index.css"/>
+    </head>
+    <body id="body">
+        <div class="relative grid min-h-screen grid-cols-[1fr_2.5rem_auto_2.5rem_1fr] grid-rows-[1fr_1px_auto_1px_1fr]">
+            <div class="col-start-3 row-start-3 flex max-w-lg flex-col bg-gray-100 p-2">
+                <div class="rounded-xl bg-white p-10 text-sm/7 text-gray-700">
+                    <div class="space-y-5 text-sm text-gray-950 font-medium">
+                        <h1 class="text-xl font-bold text-center mb-5">Watson's Blog</h1>
+                        
+                        <p><span class="group relative cursor-help underline decoration-dotted decoration-gray-400">Welcome to my blog!<span class="pointer-events-none absolute -top-10 left-1/2 -translate-x-1/2 whitespace-nowrap rounded bg-gray-900 px-2 py-1 text-xs text-white opacity-0 transition-opacity group-hover:opacity-100">Thanks for visiting!</span></span> This is where I'll share my thoughts, coding progress, and other ramblings.</p>
+                        
+                        <hr class="border-gray-200">
+                        
+                        <div class="space-y-4">
+                            <!-- Blog Post Entry -->
+                            <div class="flex flex-col space-y-1">
+                                <a href="#" class="text-gray-950 underline decoration-sky-400 underline-offset-3 hover:decoration-2 font-bold">
+                                    First Blog Post &rarr;
+                                </a>
+                                <span class="text-xs text-gray-500">October 25, 2026</span>
+                                <p class="text-gray-700 font-normal">A brief description of what this post is about...</p>
+                            </div>
+
+                            <!-- Blog Post Entry -->
+                            <div class="flex flex-col space-y-1">
+                                <a href="#" class="text-gray-950 underline decoration-sky-400 underline-offset-3 hover:decoration-2 font-bold">
+                                    Learning New Things &rarr;
+                                </a>
+                                <span class="text-xs text-gray-500">October 20, 2026</span>
+                                <p class="text-gray-700 font-normal">Another entry about my journey in coding and gaming.</p>
+                            </div>
+                        </div>
+
+                        <div class="text-center pt-5">
+                            <a href="../index.html" class="text-gray-950 underline decoration-sky-400 underline-offset-3 hover:decoration-2">
+                                &larr; Back to Home
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

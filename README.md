@@ -58,7 +58,7 @@ Tuesday July 15, 2025
 ### Todo List
 
 Sunday October 24, 2026
-- [ ] Add links to Washodo and Washodo Friends
+- [x] Add links to Washodo and Washodo Friends
 - [ ] Clean up 5th section
 - [ ] Add a blog
 
