@@ -57,13 +57,16 @@ Tuesday July 15, 2025
 
 ### Todo List
 
-Up Next
-- [ ] Core memories and lore
+Sunday October 24, 2026
+- [x] Add links to Washodo and Washodo Friends
+- [ ] Clean up 5th section
+- [ ] Add a blog
 
-For Later
-- [ ] Finish out the friends list
-- [ ] Add different kinds of links with icons for the friends list
-- [ ] Add more content to page 3 about Puddo and Watson. Been to Japan, did the Camino de Santiago. Moved like 12 times. Studying Japanese. Been to a dozen countries and drove across America.
+### From Before
+
+This was completed at [https://friends.washodo.tv](https://friends.washodo.tv)
+- [x] Finish out the friends list
+- [x] Add different kinds of links with icons for the friends list
 
 ### Notes
 * Code-server has 3 methods for accessing web services, such as the HTTP server that runs in preview mode. 
@@ -72,6 +75,9 @@ For Later
     * We ended up using the subpath method
 * Rano and Sportsliker mentioned, try importing tailwind through the css file for intellisense to work properly
     * Right now, it's imported inside of the HTML from the CDN
+* **Prettier** is used to standardize indentation and formatting to help AI tools edit files more reliably.
+    * To format all files, run: `npx prettier --write "**/*.html" "**/*.css" "**/*.js"`
+
 
 ### Using Umami for analytics
 
