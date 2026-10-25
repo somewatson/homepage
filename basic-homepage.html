@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>Some Watson's Homepage</title>
+    <meta name="title" content="Some Watson's Homepage" />
+    <meta
+      name="description"
+      content="I'm a little vtuber who likes to play games and code. This is my artisanally, hand-coded HTML homepage with vanilla JS that I used copy & paste and AI advice to make. Oh, and chat helped a lot too. Let's live on the web like it's 1997."
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://somewatson.com/basic-homepage.html" />
+    <meta property="og:title" content="Some Watson's Homepage" />
+    <meta
+      property="og:description"
+      content="I'm a little vtuber who likes to play games and code. This is my artisanally, hand-coded HTML homepage with vanilla JS that I used copy & paste and AI advice to make. Oh, and chat helped a lot too. Let's live on the web like it's 1997."
+    />
+    <meta property="og:image" content="https://somewatson.com/images/watson_pfp.png" />
+
+    <!-- X (Twitter) -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://somewatson.com/basic-homepage.html" />
+    <meta property="twitter:title" content="Some Watson's Homepage" />
+    <meta
+      property="twitter:description"
+      content="I'm a little vtuber who likes to play games and code. This is my artisanally, hand-coded HTML homepage with vanilla JS that I used copy & paste and AI advice to make. Oh, and chat helped a lot too. Let's live on the web like it's 1997."
+    />
+    <meta property="twitter:image" content="https://somewatson.com/images/watson_pfp.png" />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+
+    <style>
+      /* Additional colors to match the existing site */
+      .bg-green-500 {
+        background-color: #89c522;
+      }
+
+      .text-green-800 {
+        color: #1a3d00;
+      }
+
+      .border-green-600 {
+        border-color: #5a9c00;
+      }
+
+      .hover\:bg-green-600:hover {
+        background-color: #5a9c00;
+      }
+
+      .btn-primary {
+        background-color: #89c522;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background-color 0.3s;
+      }
+
+      .btn-primary:hover {
+        background-color: #5a9c00;
+      }
+
+      .social-link {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 5px;
+        padding: 5px;
+      }
+
+      .social-icon {
+        width: 24px;
+        height: 24px;
+        margin-right: 5px;
+      }
+    </style>
+  </head>
+  <body class="bg-green-500">
+    <div class="max-w-4xl mx-auto p-4">
+      <header class="bg-white rounded-xl p-6 mb-6 shadow-lg">
+        <h1 class="text-3xl font-bold text-green-800 text-center">
+          I'm not just any Watson, I'm Some Watson.
+        </h1>
+        <p class="text-center text-green-600 mt-2">
+          A little vtuber who likes to play games and code
+        </p>
+      </header>
+
+      <nav class="bg-white rounded-xl p-4 mb-6 shadow-lg">
+        <ul class="flex flex-wrap justify-center gap-4">
+          <li>
+            <a
+              href="#home"
+              class="text-green-800 font-semibold hover:text-green-600 transition-colors"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#about"
+              class="text-green-800 font-semibold hover:text-green-600 transition-colors"
+              >About Puddo</a
+            >
+          </li>
+          <li>
+            <a
+              href="#japanese"
+              class="text-green-800 font-semibold hover:text-green-600 transition-colors"
+              >Japanese Study</a
+            >
+          </li>
+          <li>
+            <a
+              href="#community"
+              class="text-green-800 font-semibold hover:text-green-600 transition-colors"
+              >Community</a
+            >
+          </li>
+          <li>
+            <a
+              href="#games"
+              class="text-green-800 font-semibold hover:text-green-600 transition-colors"
+              >Games & Books</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <main class="bg-white rounded-xl p-6 shadow-lg mb-6">
+        <section id="home">
+          <h2 class="text-2xl font-bold text-green-800 mb-4">Welcome to My Homepage</h2>
+          <div class="flex flex-col md:flex-row items-center mb-6">
+            <img
+              src="images/watson_pfp.png"
+              alt="Some Watson"
+              class="w-32 h-32 rounded-full mr-4 mb-4 md:mb-0 object-cover"
+            />
+            <p class="text-green-700 text-justify">
+              This is my artisanally, hand-coded HTML homepage with vanilla JS that I used copy &
+              paste and AI advice to make. Oh, and chat helped a lot too. Let's live on the web like
+              it's 1997.
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+            <div class="bg-green-100 p-4 rounded-lg border border-green-200">
+              <h3 class="font-bold text-green-800">VTuber & Developer</h3>
+              <p class="text-green-700 text-sm">Playing games and coding on Twitch</p>
+            </div>
+            <div class="bg-green-100 p-4 rounded-lg border border-green-200">
+              <h3 class="font-bold text-green-800">Content Creator</h3>
+              <p class="text-green-700 text-sm">Building a positive community</p>
+            </div>
+          </div>
+
+          <div class="text-center mb-6">
+            <h3 class="text-lg font-bold text-green-800 mb-2">Connect with me</h3>
+            <div class="flex flex-wrap justify-center gap-3">
+              <a
+                href="https://twitch.tv/somewatson"
+                target="_blank"
+                class="social-link text-green-800 hover:text-green-600"
+              >
+                <img src="images/brand-twitch.svg" alt="Twitch" class="social-icon" /> Twitch
+              </a>
+              <a
+                href="https://github.com/somewatson"
+                target="_blank"
+                class="social-link text-green-800 hover:text-green-600"
+              >
+                <img src="images/brand-github.svg" alt="GitHub" class="social-icon" /> Github
+              </a>
+              <a
+                href="https://www.youtube.com/@PuddoTV"
+                target="_blank"
+                class="social-link text-green-800 hover:text-green-600"
+              >
+                <img src="images/brand-youtube.svg" alt="YouTube" class="social-icon" /> YouTube
+              </a>
+              <a
+                href="https://discord.gg/fqZWXV9X"
+                target="_blank"
+                class="social-link text-green-800 hover:text-green-600"
+              >
+                <img src="images/brand-discord.svg" alt="Discord" class="social-icon" /> Discord
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="mt-8">
+          <h2 class="text-2xl font-bold text-green-800 mb-4">About Puddo</h2>
+          <div class="flex flex-col md:flex-row items-center mb-4">
+            <img
+              src="images/puddo_pfp.png"
+              alt="Puddo"
+              class="w-24 h-24 rounded-full mr-4 mb-4 md:mb-0 object-cover"
+            />
+            <p class="text-green-700 text-justify">
+              This is Puddo, my wife, and she is amazing. She's also a little vtuber. Not only did
+              she make my vtube model, she made her own as well. She's quite the artist and has
+              drawn all of the art on this page. She makes her own emotes and she makes her own
+              <a
+                href="https://merch.puddotv.com"
+                target="_blank"
+                class="text-green-800 underline hover:text-green-600"
+                >merch &rarr;</a
+              >.
+            </p>
+          </div>
+          <div class="text-center">
+            <a href="https://puddotv.com" target="_blank" class="btn-primary"
+              >Visit Puddo's Website</a
+            >
+          </div>
+        </section>
+
+        <section id="japanese" class="mt-8">
+          <h2 class="text-2xl font-bold text-green-800 mb-4">Watson's Japanese Study Guide</h2>
+          <p class="text-green-700 mb-4">
+            Because I haven't finished my college degree yet (yes, I'm a college dropout) Puddo and
+            I enrolled in Japanese I at a local community college together earlier this year. It was
+            one of the most memorable, treasured experiences I've ever had. She was the best
+            conversationalist partner. She helped me with all my homework and studying for quizzes
+            and tests. And she memorized and performed a Japanese song for extra credit in front of
+            the whole class. We both got A's, and it's the first time I've ever received an A in any
+            language class whatsoever.
+          </p>
+          <p class="text-green-700 italic mb-4">初めまして。ぼくはワトソンです。</p>
+          <div class="text-center">
+            <a href="./learning-japanese/" target="_blank" class="btn-primary"
+              >View Japanese Study Guide</a
+            >
+          </div>
+        </section>
+
+        <section id="community" class="mt-8">
+          <h2 class="text-2xl font-bold text-green-800 mb-4">Our Community - Washodo</h2>
+          <p class="text-green-700 mb-4">
+            And, with our friend,
+            <a
+              href="https://twitch.tv/shodesu"
+              target="_blank"
+              class="text-green-800 underline hover:text-green-600"
+              >ShoDesu &rarr;</a
+            >, we're building a community called Washodo. It's short for <strong>Wa</strong>tson,
+            <strong>Sho</strong>Desu, and Pud<strong>do</strong>.
+          </p>
+          <div class="text-center mb-4">
+            <img src="images/washodo.png" alt="Washodo" class="w-48 mx-auto" />
+          </div>
+          <p class="text-green-700 text-center">
+            We're building the most positive community in League. Although we mald all the time,
+            with the help of friends, we are untiltable. Join us if you like playing with Ornn
+            Jungle.
+          </p>
+          <div class="text-center mt-4">
+            <a href="./washodo/" target="_blank" class="btn-primary">View Washodo Links</a>
+          </div>
+        </section>
+
+        <section id="games" class="mt-8">
+          <h2 class="text-2xl font-bold text-green-800 mb-4">My Interests</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <h3 class="font-bold text-green-800 mb-2">Games I Like</h3>
+              <ul class="list-disc pl-5 text-green-700 space-y-1">
+                <li>
+                  <a
+                    href="https://store.steampowered.com/app/211820/League_of_Legends/"
+                    target="_blank"
+                    class="text-green-800 underline hover:text-green-600"
+                    >League of Legends</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://store.steampowered.com/app/346110/Colonists/"
+                    target="_blank"
+                    class="text-green-800 underline hover:text-green-600"
+                    >Colonists</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://store.steampowered.com/app/221100/SimCity_2013/"
+                    target="_blank"
+                    class="text-green-800 underline hover:text-green-600"
+                    >SimCity 2013</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://store.steampowered.com/app/205840/Repo/"
+                    target="_blank"
+                    class="text-green-800 underline hover:text-green-600"
+                    >Repo</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://store.steampowered.com/app/1245620/Elden_Ring_Nightreign/"
+                    target="_blank"
+                    class="text-green-800 underline hover:text-green-600"
+                    >Elden Ring Nightreign</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="font-bold text-green-800 mb-2">Books I Like</h3>
+              <ul class="list-disc pl-5 text-green-700 space-y-1">
+                <li>
+                  <a
+                    href="https://www.amazon.com/Fabric-Cosmos-Space-Texture-Reality/dp/0375727205"
+                    target="_blank"
+                    class="text-green-800 underline hover:text-green-600"
+                    >The Fabric of the Cosmos &rarr;</a
+                  >
+                  by Brian Greene
+                </li>
+                <li>
+                  <a
+                    href="https://www.amazon.com/dp/1505223377"
+                    target="_blank"
+                    class="text-green-800 underline hover:text-green-600"
+                    >The Souls of Black Folk &rarr;</a
+                  >
+                  by W.E.B. Du Bois
+                </li>
+                <li>
+                  <a
+                    href="https://www.amazon.com/Prophets-Perennial-Classics-Abraham-Heschel/dp/0060936991"
+                    target="_blank"
+                    class="text-green-800 underline hover:text-green-600"
+                    >The Prophets &rarr;</a
+                  >
+                  by Abraham J. Heschel
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="bg-white rounded-xl p-6 text-center shadow-lg">
+        <p class="text-green-700">&copy; 2025 Some Watson's Homepage. All rights reserved.</p>
+        <p class="text-green-600 text-sm mt-2">
+          Built with Tailwind CSS and the signature green color scheme
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
