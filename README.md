@@ -75,6 +75,9 @@ This was completed at [https://friends.washodo.tv](https://friends.washodo.tv)
     * We ended up using the subpath method
 * Rano and Sportsliker mentioned, try importing tailwind through the css file for intellisense to work properly
     * Right now, it's imported inside of the HTML from the CDN
+* **Prettier** is used to standardize indentation and formatting to help AI tools edit files more reliably.
+    * To format all files, run: `npx prettier --write "**/*.html" "**/*.css" "**/*.js"`
+
 
 ### Using Umami for analytics
 
